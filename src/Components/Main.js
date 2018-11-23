@@ -29,13 +29,13 @@ class Form extends Component {
         option4 : undefined
      }
      
-     setState ({
-         question : question,
-         option1 : option1,
-         option2 : option2,
-         option3 : option3,
-         option4 : option4
-     });
+    //  setState ({
+    //      question : question,
+    //      option1 : option1,
+    //      option2 : option2,
+    //      option3 : option3,
+    //      option4 : option4
+    //  });
     render() {
         return ( 
             <div className = "container">
